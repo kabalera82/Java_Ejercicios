@@ -18,7 +18,7 @@ public class Ejercicio10 {
          */
 
         // usar operadores lógicos tras recibir la info.
-        boolean llueve, tarea, irABiblioteca;
+        boolean llueve, tarea, irCalle;
         Scanner sc = new Scanner(System.in);
         
         System.out.println("¿Llueve? (true/false): ");
@@ -27,9 +27,9 @@ public class Ejercicio10 {
         System.out.println("¿Tarea finalizada? (true/false): ");
         tarea = sc.nextBoolean();
         
-        irABiblioteca = !llueve && tarea;
+        irCalle = !llueve && tarea;
         
-        System.out.println("¿Puedes ir a la biblioteca?: " + irABiblioteca);
+        System.out.println("¿Puedes ir a la calle?: " + irCalle);
         
         sc.close();
     }
